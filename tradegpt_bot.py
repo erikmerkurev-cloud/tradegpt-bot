@@ -12,8 +12,8 @@ from telegram.ext import (
 
 # ===== НАСТРОЙКИ =====
 
-TELEGRAM_TOKEN = ""
-ANTHROPIC_API_KEY = ""
+TELEGRAM_TOKEN=8632146984:AAHZTsP5YBCt-vt0P4n1ACG8hBjxuzE6buY
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 SYSTEM_PROMPT = """Ты — TradeGPT, профессиональный AI-трейдер и наставник с 15+ летним опытом.
 Ты энциклопедия трейдинга — знаешь всё от основ до продвинутых стратегий.
