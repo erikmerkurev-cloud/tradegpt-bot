@@ -15,7 +15,7 @@ from telegram.ext import (
 import os
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+
 
 SYSTEM_PROMPT = """Ты — TradeGPT, профессиональный AI-трейдер и наставник с 15+ летним опытом.
 Ты энциклопедия трейдинга — знаешь всё от основ до продвинутых стратегий.
